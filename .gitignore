@@ -1,0 +1,11 @@
+# ignore pesky macOS system files
+.DS_Store
+*/.DS_Store
+
+# ignore all sound files
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.m4a

@@ -1,1 +1,1 @@
-# sound-synth-tech-SS24-v01
+# sound-synth-tech-SS24

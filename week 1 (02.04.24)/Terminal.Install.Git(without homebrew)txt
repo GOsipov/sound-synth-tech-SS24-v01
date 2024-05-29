@@ -1,0 +1,78 @@
+Last login: Sat Apr  6 23:42:11 on ttys000
+mhl-electronic-studio-mbp-2@2cec9960-d8b1-48d7-8d31-e86d525ed45f ~ %   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/mhl-electronic-studio-mbp-2/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+mhl-electronic-studio-mbp-2@2cec9960-d8b1-48d7-8d31-e86d525ed45f ~ %   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/mhl-electronic-studio-mbp-2/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+mhl-electronic-studio-mbp-2@2cec9960-d8b1-48d7-8d31-e86d525ed45f ~ % brew
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+mhl-electronic-studio-mbp-2@2cec9960-d8b1-48d7-8d31-e86d525ed45f ~ % brew install git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.44.0
+######################################################################### 100.0%
+==> Fetching dependencies for git: gettext and pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+######################################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:4b5b6cb069
+#####################################################                      72.9%######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+######################################################################### 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:45c605d79f32
+######################################################################### 100.0%
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:5d4c3e312af15c
+######################################################################### 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+Already downloaded: /Users/mhl-electronic-studio-mbp-2/Library/Caches/Homebrew/downloads/447e45b77bb47ede0377f7eab1863825298ecaaaeed0bbd84aca3bd300b00508--gettext-0.22.5.bottle_manifest.json
+==> Pouring gettext--0.22.5.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.22.5: 2,043 files, 24.4MB
+==> Installing git dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+Already downloaded: /Users/mhl-electronic-studio-mbp-2/Library/Caches/Homebrew/downloads/4c12870adcfbf27eeeae4f44a420311ca3449f06a2fd8f6fcfe3d13db18087b4--pcre2-10.43.bottle_manifest.json
+==> Pouring pcre2--10.43.arm64_sonoma.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.43: 234 files, 6.3MB
+==> Installing git
+==> Pouring git--2.44.0.arm64_sonoma.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.44.0: 1,649 files, 50.8MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+mhl-electronic-studio-mbp-2@2cec9960-d8b1-48d7-8d31-e86d525ed45f ~ %  

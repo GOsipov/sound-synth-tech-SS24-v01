@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 109.0, 806.0, 621.0 ],
+		"rect" : [ 34.0, 109.0, 806.0, 620.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,10 +44,10 @@
 					"clipheight" : 30.333333333333332,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/Samples/Anvil chorus/Чаши/Долгие чаши/ZOOM0047_Tr34.WAV",
-								"filename" : "ZOOM0047_Tr34.WAV",
+								"absolutepath" : "drumLoop.aif",
+								"filename" : "drumLoop.aif",
 								"filekind" : "audiofile",
-								"id" : "u070010925",
+								"id" : "u726011356",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -55,24 +55,24 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/_Classes/sound-synth-tech-SS24/week 1 (02.04.24)/synth-tech-media-master/speech/273177__xserra__la-vaca-cega-eva.wav",
-								"filename" : "273177__xserra__la-vaca-cega-eva.wav",
+								"absolutepath" : "anton.aif",
+								"filename" : "anton.aif",
 								"filekind" : "audiofile",
-								"id" : "u592004464",
-								"loop" : 0,
+								"id" : "u169006725",
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/_Classes/sound-synth-tech-SS24/week 1 (02.04.24)/synth-tech-media-master/speech/431165__inspectorj__voice-request-32-okay-chief-ch.wav",
-								"filename" : "431165__inspectorj__voice-request-32-okay-chief-ch.wav",
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/Samples/Anvil chorus/Чаши/Долгие чаши/ZOOM0047_Tr34.WAV",
+								"filename" : "ZOOM0047_Tr34.WAV",
 								"filekind" : "audiofile",
-								"id" : "u329004543",
+								"id" : "u070010925",
 								"loop" : 0,
 								"content_state" : 								{
-
+									"loop" : 0
 								}
 
 							}
@@ -92,9 +92,9 @@
 								"filename" : "B. Chorus.wav",
 								"filekind" : "audiofile",
 								"id" : "u249001489",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-									"loop" : 0
+									"loop" : 1
 								}
 
 							}
@@ -149,18 +149,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 839.0, 135.0, 96.0, 34.0 ],
 					"text" : "Sine osscilator\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 737.0, 168.5, 39.0, 22.0 ],
-					"text" : "click~"
 				}
 
 			}
@@ -561,15 +549,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-13", 5 ],
-					"source" : [ "obj-48", 0 ]
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}

@@ -107,7 +107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 604.0, 185.0, 50.0, 22.0 ]
+					"patching_rect" : [ 604.0, 179.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 381.0, 368.0, 167.0, 29.0 ]
+					"patching_rect" : [ 377.0, 366.0, 167.0, 29.0 ]
 				}
 
 			}
@@ -629,28 +629,28 @@
 			}
 , 			{
 				"name" : "pre-processing.maxpat",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24/week_5-live-processing",
+				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24/week_5-live-processing",
+				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24/week_5-live-processing",
+				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24/week_5-live-processing",
+				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

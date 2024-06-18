@@ -41,16 +41,27 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 30.333333333333332,
+					"clipheight" : 25.857142857142858,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "drumLoop.aif",
-								"filename" : "drumLoop.aif",
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/TROMP/OMAR/OMAR(I).Grigorii_Osipov_TROMP.wav",
+								"filename" : "OMAR(I).Grigorii_Osipov_TROMP.wav",
 								"filekind" : "audiofile",
-								"id" : "u726011356",
-								"loop" : 1,
+								"id" : "u347006107",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/TROMP/Anvil/Anvil_Chorus_Grigorii_Osipov.TROMP.wav",
+								"filename" : "Anvil_Chorus_Grigorii_Osipov.TROMP.wav",
+								"filekind" : "audiofile",
+								"id" : "u223006520",
+								"loop" : 0,
+								"content_state" : 								{
+
 								}
 
 							}

@@ -40,6 +40,102 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1143.0, 336.0, 98.5, 22.0 ],
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "number~",
+					"mode" : 1,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 1202.0, 168.5, 56.0, 22.0 ],
+					"sig" : 500.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1143.0, 250.0, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-36",
+					"maxclass" : "number~",
+					"mode" : 1,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 1202.0, 87.0, 56.0, 22.0 ],
+					"sig" : 2.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1143.0, 168.5, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-46",
+					"maxclass" : "number~",
+					"mode" : 1,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 1143.0, 55.0, 56.0, 22.0 ],
+					"sig" : 0.07
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1143.0, 105.0, 43.0, 22.0 ],
+					"text" : "cycle~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
@@ -118,6 +214,18 @@
 , 						{
 							"number" : 15,
 							"data" : [ 5, "obj-18", "flonum", "float", 2.0, 5, "obj-32", "flonum", "float", -1.0, 5, "obj-10", "flonum", "float", 0.0, 6, "obj-22", "number~", "list", 0.01, 0.0, 6, "obj-28", "number~", "list", 0.724, 0.0, 6, "obj-41", "number~", "list", 2003.0, 0.0, 5, "obj-48", "attrui", "attr", "range", 6, "obj-48", "attrui", "list", 0.0, 125.0, 6, "obj-3", "gain~", "list", 0, 10.0 ]
+						}
+, 						{
+							"number" : 16,
+							"data" : [ 5, "obj-18", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", -0.5, 5, "obj-10", "flonum", "float", 0.0, 6, "obj-22", "number~", "list", 0.01, 0.0, 6, "obj-28", "number~", "list", 0.724, 0.0, 6, "obj-41", "number~", "list", 2003.0, 0.0, 5, "obj-48", "attrui", "attr", "range", 6, "obj-48", "attrui", "list", 0.0, 125.0, 6, "obj-3", "gain~", "list", 0, 10.0 ]
+						}
+, 						{
+							"number" : 17,
+							"data" : [ 5, "obj-18", "flonum", "float", -8.0, 5, "obj-32", "flonum", "float", -2.0, 5, "obj-10", "flonum", "float", 0.0, 6, "obj-22", "number~", "list", 0.362, 0.0, 6, "obj-28", "number~", "list", 0.56, 0.0, 6, "obj-41", "number~", "list", 70.0, 0.0, 5, "obj-48", "attrui", "attr", "range", 6, "obj-48", "attrui", "list", 0.0, 125.0, 6, "obj-3", "gain~", "list", 138, 10.0 ]
+						}
+, 						{
+							"number" : 18,
+							"data" : [ 5, "obj-18", "flonum", "float", 0.0, 5, "obj-32", "flonum", "float", -70.0, 5, "obj-10", "flonum", "float", 0.0, 6, "obj-22", "number~", "list", 0.01, 0.0, 6, "obj-28", "number~", "list", 0.901, 0.0, 6, "obj-41", "number~", "list", 2003.0, 0.0, 5, "obj-48", "attrui", "attr", "range", 6, "obj-48", "attrui", "list", 0.0, 125.0, 6, "obj-3", "gain~", "list", 119, 10.0 ]
 						}
  ]
 				}
@@ -666,6 +774,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -710,6 +834,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -778,6 +909,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 1 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"order" : 1,
 					"source" : [ "obj-4", 0 ]
@@ -834,8 +979,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -896,7 +1055,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "bach.approx.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -915,14 +1074,14 @@
 , 			{
 				"name" : "bach.ezmidiplay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -933,7 +1092,7 @@
 , 			{
 				"name" : "bach.gcd.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -960,7 +1119,7 @@
 , 			{
 				"name" : "bach.mc2f.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1006,28 +1165,7 @@
 			}
 , 			{
 				"name" : "pre-processing.maxpat",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
-				"patcherrelativepath" : ".",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_5-live-processing",
+				"bootpath" : "~/Desktop/Studio methods/_Classes/sound-synth-tech-SS24-v01/week_9-concert-patch/My_First_Concert_Patch",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

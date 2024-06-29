@@ -40,14 +40,180 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 786.936004638671875, 417.0, 186.0, 25.0 ],
+					"text" : "turn on timestretch for clip 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 666.0, 146.0, 23.0 ],
+					"text" : "selectionms 2 500 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"format" : 6,
+					"id" : "obj-1",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 760.0, 558.0, 50.0, 23.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.5 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[1]",
+							"parameter_shortname" : "number[1]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"varname" : "number[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 587.0, 129.0, 23.0 ],
+					"text" : "setclip 1 pitchshift $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 760.0, 417.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 447.0, 141.0, 23.0 ],
+					"text" : "setclip 1 timestretch $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 637.0, 123.0, 23.0 ],
+					"text" : "selection 2 0.25 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"format" : 6,
+					"id" : "obj-27",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 760.0, 487.0, 50.0, 23.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.5 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number",
+							"parameter_shortname" : "number",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"varname" : "number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 516.0, 113.0, 23.0 ],
+					"text" : "setclip 1 speed $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 25.857142857142858,
+					"clipheight" : 61.666666666666664,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/TROMP/OMAR/OMAR(I).Grigorii_Osipov_TROMP.wav",
-								"filename" : "OMAR(I).Grigorii_Osipov_TROMP.wav",
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/Kiel 19.07/2_Omar/Omar for Interactive 2.wav",
+								"filename" : "Omar for Interactive 2.wav",
 								"filekind" : "audiofile",
-								"id" : "u347006107",
+								"id" : "u876001794",
+								"loop" : 0,
+								"content_state" : 								{
+									"loop" : 0,
+									"timestretch" : 1,
+									"speed" : 0.75,
+									"pitchshift" : 1.0
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/Kiel 19.07/2_Omar/Omar for Interactive 1.wav",
+								"filename" : "Omar for Interactive 1.wav",
+								"filekind" : "audiofile",
+								"id" : "u027001647",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -55,68 +221,13 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/TROMP/Anvil/Anvil_Chorus_Grigorii_Osipov.TROMP.wav",
-								"filename" : "Anvil_Chorus_Grigorii_Osipov.TROMP.wav",
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Music/Kiel 19.07/2_Omar/Omar for Interactive.wav",
+								"filename" : "Omar for Interactive.wav",
 								"filekind" : "audiofile",
-								"id" : "u223006520",
+								"id" : "u519001062",
 								"loop" : 0,
 								"content_state" : 								{
 
-								}
-
-							}
-, 							{
-								"absolutepath" : "anton.aif",
-								"filename" : "anton.aif",
-								"filekind" : "audiofile",
-								"id" : "u169006725",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/Samples/Anvil chorus/Чаши/Долгие чаши/ZOOM0047_Tr34.WAV",
-								"filename" : "ZOOM0047_Tr34.WAV",
-								"filekind" : "audiofile",
-								"id" : "u070010925",
-								"loop" : 0,
-								"content_state" : 								{
-									"loop" : 0
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/Tape Worms/16th of April/HAPPY BURTHDAY.wav",
-								"filename" : "HAPPY BURTHDAY.wav",
-								"filekind" : "audiofile",
-								"id" : "u896001969",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/Tape Worms/1st of April (Track 5)/B. Chorus.wav",
-								"filename" : "B. Chorus.wav",
-								"filekind" : "audiofile",
-								"id" : "u249001489",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Studio methods/Samples/Sort/Звук блинов, звучащий, как скулящая собака/ZOOM0003_LR.WAV",
-								"filename" : "ZOOM0003_LR.WAV",
-								"filekind" : "audiofile",
-								"id" : "u853007175",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
 								}
 
 							}
@@ -407,77 +518,15 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 822.0, 593.0, 150.0, 20.0 ],
-					"text" : "live.meter~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "live.meter~",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 774.0, 553.0, 5.0, 100.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 714.0, 469.0, 150.0, 20.0 ],
-					"text" : "slider~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 690.0, 456.0, 20.0, 140.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 761.0, 516.0, 150.0, 20.0 ],
-					"text" : "gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "gain~",
-					"multichannelvariant" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 729.0, 498.0, 22.0, 140.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 0,
@@ -520,6 +569,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -569,6 +625,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 2 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
